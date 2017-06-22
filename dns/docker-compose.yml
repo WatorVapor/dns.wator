@@ -1,13 +1,12 @@
-version: '2'
+version: "2.0"
 services:
-  dnsmasq:
-    restart: always
-    image: andyshinn/dnsmasq
-    container_name: dnsmasq
+  bind:
+    container_name: bind
+    build: bind
+    image: bind
+    volumes:
+      - ./bind/conf:/etc/bind
     ports:
-      - "53:53/udp"
-      - "53:53/tcp"
-    extra_hosts:
-      - "www.wator.xyz: 133.130.106.202"
-    cap_add:
-      - NET_ADMIN
+      - 53:53/udp
+    restart: always
+    
