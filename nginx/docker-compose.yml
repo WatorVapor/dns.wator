@@ -1,11 +1,20 @@
 version: '2'
 services:
-   nginx:
-     build: nginx
-     image: nginx
-     container_name: nginx-wator
-     volumes:
-       - ./nginx/conf:/etc/nginx
-     ports:
-       - 443:443
-     restart: always
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    container_name: nginx-wator
+    ports:
+      - 443:443
+    volumes:
+      - ./nginx/certs:/etc/nginx/certs:ro
+    restart: always
+
+  letsencrypt-nginx:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    container_name: letsencrypt-nginx-wator
+    volumes:
+      - ./nginx/certs:/etc/nginx/certs:rw
+    volumes_from:
+      - nginx-proxy
+    restart: always
+    
