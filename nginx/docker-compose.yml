@@ -1,25 +1,11 @@
 version: '2'
 services:
   nginx-proxy:
-    image: jwilder/nginx-proxy
+    image: nginx:stable-alpine
     container_name: nginx-wator
-    privileged: true
     ports:
       - 443:443
     volumes:
-      - ./nginx/certs:/etc/nginx/certs:ro
-      - /etc/nginx/vhost.d
-      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - /etc/letsencrypt/live/www.wator.xyz:/etc/certs:ro
+      - ./nginx/conf:/etc/nginx
     restart: always
-
-  letsencrypt-nginx:
-    image: jrcs/letsencrypt-nginx-proxy-companion
-    container_name: letsencrypt-nginx-wator
-    privileged: true
-    volumes:
-      - ./nginx/certs:/etc/nginx/certs:rw
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-    volumes_from:
-      - nginx-proxy
-    restart: always
-    
