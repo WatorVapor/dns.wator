@@ -10,7 +10,7 @@ $TTL	604800
 			 604800 )	; Negative Cache TTL
 ;
 
-@	IN	NS	wator.xyz
+@	IN	NS	wator.xyz.
 wator.xyz. IN  A     133.130.106.202
            IN  AAAA  2400:8500:1301:743:133:130:106:202
 
