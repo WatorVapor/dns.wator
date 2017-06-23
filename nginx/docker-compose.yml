@@ -1,13 +1,11 @@
 version: '2'
 services:
-  dnsmasq:
-    restart: always
-    image: andyshinn/dnsmasq
-    container_name: dnsmasq
-    ports:
-      - "53:53/udp"
-      - "53:53/tcp"
-    extra_hosts:
-      - "www.wator.xyz: 133.130.106.202"
-    cap_add:
-      - NET_ADMIN
+   nginx:
+     build: ./nginx
+     image: nginx
+     container_name: nginx-wator
+     volumes:
+       - certs:/etc/letsencrypt
+       - certs-data:/data/letsencrypt
+     ports:
+       - 443:443
