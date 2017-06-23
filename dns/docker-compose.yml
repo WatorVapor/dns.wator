@@ -6,6 +6,7 @@ services:
     image: bind
     volumes:
       - ./bind/conf:/etc/bind
+      - ./bind/cache:/var/cache/bind
     ports:
       - 53:53/udp
     restart: always
