@@ -5,7 +5,6 @@ services:
      image: nginx
      container_name: nginx-wator
      volumes:
-       - certs:/etc/letsencrypt
-       - certs-data:/data/letsencrypt
+       - ./nginx/conf:/etc/nginx
      ports:
        - 443:443
