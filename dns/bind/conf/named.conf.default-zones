@@ -27,9 +27,9 @@ zone "255.in-addr.arpa" {
 	file "/etc/bind/db.255";
 };
 
-zone "www.wator.xyz" {
+zone "wator.xyz" {
 	type master;
-	file "/etc/bind/db.www.wator.xyz";
+	file "/etc/bind/db.wator.xyz";
 };
 
 
