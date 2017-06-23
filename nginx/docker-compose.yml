@@ -3,6 +3,7 @@ services:
   nginx-proxy:
     image: jwilder/nginx-proxy
     container_name: nginx-wator
+    privileged: true
     ports:
       - 443:443
     volumes:
@@ -12,6 +13,7 @@ services:
   letsencrypt-nginx:
     image: jrcs/letsencrypt-nginx-proxy-companion
     container_name: letsencrypt-nginx-wator
+    privileged: true
     volumes:
       - ./nginx/certs:/etc/nginx/certs:rw
     volumes_from:
