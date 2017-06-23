@@ -9,10 +9,6 @@ $TTL	604800
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
-
-wator.xyz.     A       2133.130.106.202
-wator.xyz.     AAAA    2400:8500:1301:743:133:130:106:202
-
 @	IN	NS	www
 www IN A  133.130.106.202
     IN AAAA 2400:2412:13e0:9d00:5172:f216:5677:5055
