@@ -8,6 +8,7 @@ services:
       - 443:443
     volumes:
       - ./nginx/certs:/etc/nginx/certs:ro
+      - /etc/nginx/vhost.d
       - /var/run/docker.sock:/tmp/docker.sock:ro
     restart: always
 
