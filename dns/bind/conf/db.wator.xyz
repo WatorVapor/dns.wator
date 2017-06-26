@@ -18,6 +18,7 @@ wator.xyz. IN  A     133.130.106.202
 www IN A  133.130.106.202
     IN AAAA 2400:2412:13e0:9d00:5172:f216:5677:5055
 
-@	    IN	NS	ipv6proxy
-ipv6proxy  IN    AAAA 2400:2412:13e0:9d00:5172:f216:5677:5055
+@	   IN	 NS	ipv6proxy
+ipv6proxy  IN    A      133.130.106.202
+ipv6proxy  IN    AAAA   2400:2412:13e0:9d00:5172:f216:5677:5055
 
