@@ -8,5 +8,4 @@ RUN apt-get install -y nginx
 
 EXPOSE 443
 
-CMD ["ps", "ax"]
 CMD ["nginx", "-g", "daemon off;"]
