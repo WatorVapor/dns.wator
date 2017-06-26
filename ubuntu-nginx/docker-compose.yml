@@ -1,7 +1,7 @@
 version: '2'
 services:
   nginx-proxy:
-    image: 1and1internet/ubuntu-16-nginx
+    build: ./
     container_name: nginx-wator-ubuntu
     ports:
       - 443:443
