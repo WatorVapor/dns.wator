@@ -1,0 +1,11 @@
+version: '2'
+services:
+  nginx-proxy:
+    image: nginx:mainline-alpine
+    container_name: nginx-wator
+    ports:
+      - 443:443
+    volumes:
+      - ./nginx/certs/www.wator.xyz:/etc/certs:ro
+      - ./nginx/conf/conf.d:/etc/nginx/conf.d
+    restart: always
