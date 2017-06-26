@@ -130,3 +130,4 @@ EXPOSE 443
 STOPSIGNAL SIGTERM
 
 CMD ["/bin/start.nginx.sh" ]
+CMD ["nginx", "-g", "daemon off;"]
