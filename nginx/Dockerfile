@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-MAINTAINER NGINX Docker Maintainers "docker-maint@nginx.com"
+MAINTAINER WATOR-NGINX Docker Maintainers "watorvapor@gmail.com"
 
 ENV NGINX_VERSION 1.13.1
 
