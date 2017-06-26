@@ -1,7 +1,7 @@
 version: '2'
 services:
   nginx-proxy:
-    image: nginx:stable-alpine
+    image: nginx:mainline-alpine
     container_name: nginx-wator
     ports:
       - 443:443
