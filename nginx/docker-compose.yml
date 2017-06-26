@@ -8,5 +8,4 @@ services:
     volumes:
       - ./nginx/certs/www.wator.xyz:/etc/certs:ro
       - ./nginx/conf/conf.d:/etc/nginx/conf.d
-    command: modprobe ipv6;echo "ipv6" >> /etc/modules
     restart: always
