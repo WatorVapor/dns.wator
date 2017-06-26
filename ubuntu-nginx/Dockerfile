@@ -9,4 +9,4 @@ RUN apt-get install -y nginx
 EXPOSE 443
 
 CMD ["echo", "running!"]
-CMD ["systemctl", "status","nginx.service"]
+CMD ["ps", "ax"]
