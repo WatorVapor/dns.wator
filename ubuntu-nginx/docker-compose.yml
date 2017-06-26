@@ -1,8 +1,8 @@
 version: '2'
 services:
   nginx-proxy:
-    image: nginx:mainline-alpine
-    container_name: nginx-wator
+    image: dockerfile/nginx
+    container_name: nginx-wator-ubuntu
     ports:
       - 443:443
     volumes:
