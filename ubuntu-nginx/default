@@ -1,13 +1,6 @@
-#upstream lb_ipv6s.wator.xyz {
-#  server ipv6proxy.wator.xyz:443;
-#  #server www.wator.xyz:443;
-#}
-
-
 # HTTPS server
 server {
   listen       443 default_server ssl http2;
-  #listen       [::]:443 default_server ssl http2;
   server_name  www.wator.xyz;
   ssl_certificate      /etc/letsencrypt/live/www.wator.xyz/fullchain.pem;
   ssl_certificate_key  /etc/letsencrypt/live/www.wator.xyz/privkey.pem;
