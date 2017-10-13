@@ -2,7 +2,6 @@ version: '2'
 services:
   nginx-proxy:
     image: nginx
-    #build: . 
     container_name: nginx-wator
     network_mode: "host"
     volumes:
