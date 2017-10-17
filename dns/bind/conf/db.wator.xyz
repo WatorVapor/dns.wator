@@ -31,7 +31,7 @@ node2.ceph  IN    AAAA   2400:2412:13e0:9d00:baae:edff:fe77:4c71
 text1.ai  IN    AAAA   2400:2412:13e0:9d00:c4d1:a9ff:feca:95b9
 
 @	    IN	 NS	text2.ai
-text2.ai  IN    AAAA   2400:2412:13e0:9d00:d477:1ff:fec0:a317
+text2.ai  IN    AAAA   2400:2412:13e0:9d00:fc24:d9ff:feab:4222
 
 @	   IN	 NS	train.ai
 train.ai  IN    AAAA   2400:2412:13e0:9d00:42:a4ff:fe15:80f4
