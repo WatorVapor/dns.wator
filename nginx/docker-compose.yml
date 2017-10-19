@@ -5,6 +5,8 @@ services:
     container_name: nginx-wator
     network_mode: "host"
     volumes:
+      - ./nginx/conf/nginx.conf:/etc/nginx/nginx.conf
       - ./nginx/certs/www.wator.xyz:/etc/certs:ro
       - ./nginx/conf/conf.d:/etc/nginx/conf.d
+      - ./nginx/conf/tcp.conf.d:/etc/nginx/tcp.conf.d
     restart: always
