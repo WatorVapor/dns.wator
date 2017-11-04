@@ -28,7 +28,7 @@ node1.ceph  IN    AAAA   2400:2412:13e0:9d00:5172:f216:5677:5055
 node2.ceph  IN    AAAA   2400:2412:13e0:9d00:baae:edff:fe77:4c71
 
 @	    IN	 NS	text1.ai
-text1.ai  IN    AAAA   2400:2412:13e0:9d00:c4d1:a9ff:feca:95b9
+text1.ai  IN    AAAA   2400:2412:13e0:9d00:b451:bcff:feb7:485a
 
 @	    IN	 NS	text2.ai
 text2.ai  IN    AAAA   2400:2412:13e0:9d00:fc24:d9ff:feab:4222
