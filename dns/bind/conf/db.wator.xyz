@@ -34,8 +34,8 @@ text1.ai  IN    AAAA   2400:2412:13e0:9d00:81:62ff:feb8:40f8
 text2.ai  IN    AAAA   2400:2412:13e0:9d00:4087:52ff:feb9:9ab
 
 @	    IN	 NS	text3.ai
-text3.ai  IN    AAAA   2400:2412:13e0:9d00:9c6e:6ff:fe93:440
+text3.ai  IN    AAAA   2400:2412:13e0:9d00:81:69ff:fe67:b4fb
 
 
 @	   IN	 NS	train.ai
-train.ai  IN    AAAA   2400:2412:13e0:9d00:42:a4ff:fe15:80f4
+train.ai  IN    AAAA   2400:2412:13e0:9d00:4087:52ff:feb9:9ab
