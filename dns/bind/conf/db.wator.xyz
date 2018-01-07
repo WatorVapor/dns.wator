@@ -39,3 +39,9 @@ text3.ai  IN    AAAA   2400:2412:13e0:9d00:81:69ff:fe67:b4fb
 
 @	   IN	 NS	train.ai
 train.ai  IN    AAAA   2400:2412:13e0:9d00:4087:52ff:feb9:9ab
+
+@	    IN	 NS	master.redis
+master.redis  IN    AAAA   2400:2412:13e0:9d00:baae:edff:fe77:4c71
+
+
+
