@@ -46,6 +46,7 @@ master.redis  IN    AAAA   2400:2412:13e0:9d00:baae:edff:fe77:4c71
 @	     IN	 NS	master.ipfs
 master.ipfs  IN  A  133.130.106.202
 master.ipfs  IN  AAAA   2400:2412:13e0:9d00:81:69ff:fe67:b4fb
+master.ipfs  IN  AAAA   2400:2412:13e0:9d00:81:62ff:feb8:40f8
 
 @	     IN	 NS	master6.ipfs
 master6.ipfs IN  AAAA   2400:2412:13e0:9d00:81:69ff:fe67:b4fb
