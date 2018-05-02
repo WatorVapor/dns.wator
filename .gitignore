@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+
+nginx/nginx/certs/accounts/
+nginx/nginx/certs/csr/
+nginx/nginx/certs/keys/
+nginx/nginx/certs/renewal/
