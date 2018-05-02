@@ -4,6 +4,7 @@ services:
     image: bind
     volumes:
       - ./bind/conf:/etc/bind
+      - ./bind/cache:/var/cache/bind
     networks:
       - outside
     deploy:
