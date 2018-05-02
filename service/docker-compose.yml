@@ -1,13 +1,39 @@
-version: "2.0"
+version: '3'
 services:
-  bind:
-    container_name: bind-wator
+  bind-dameon:
     image: bind
     volumes:
-      - ./bind/conf:/etc/bind
-      - ./bind/cache:/var/cache/bind
-    ports:
-      - 53:53/udp
-      - 53:53/tcp
-    restart: always
+      - ./bind/conf/db.wator.xyz:/etc/bind/db.wator.xyz
+    networks:
+      - outside
+    deploy:
+      resources:
+        limits:
+          cpus: '1.00'
+          memory: 32M
+        reservations:
+          cpus: '0.5'
+          memory: 16M
+  nginx-dameon:
+    image: nginx
+    networks:
+      - outside
+    volumes:
+      - /watorvapor/cert/www.wator.xyz:/etc/certs/www.wator.xyz
+      - ./conf-nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./conf-nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./conf-nginx/tcp.conf.d:/etc/nginx/tcp.conf.d:ro
+    deploy:
+      resources:
+        limits:
+          cpus: '1.00'
+          memory: 32M
+        reservations:
+          cpus: '0.2'
+          memory: 16M    
+networks:
+  outside:
+    external:
+      name: "host"
+      
     
