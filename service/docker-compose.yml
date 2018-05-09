@@ -39,7 +39,7 @@ services:
     volumes:
       - ./certbot:/wc
       - ./certbot/etc:/etc/letsencrypt
-    command: /wc/create.sh
+    entrypoint: /wc/create.sh
     deploy:
       resources:
         limits:
