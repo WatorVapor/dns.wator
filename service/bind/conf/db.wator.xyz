@@ -57,3 +57,6 @@ master6.ipfs IN  AAAA   2400:2412:13e0:9d00:81:69ff:fe67:b4fb
 
 @	     IN	 NS	storage6.ipfs
 storage6.ipfs IN  AAAA   2400:2412:13e0:9d00:baae:edff:fe77:4c71
+
+
+_acme-challenge.wator.xyz. IN TXT "DbV4PC5NhY9KJH0IHd_Opnumeydf7pMNBNf2IMPktGI";
