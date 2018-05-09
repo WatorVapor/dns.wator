@@ -21,9 +21,9 @@ services:
       - outside
     volumes:
       - ./nginx/conf/nginx.conf:/etc/nginx/nginx.conf
-      - ./nginx/certs:/etc/certs:ro
       - ./nginx/conf/conf.d:/etc/nginx/conf.d
       - ./nginx/conf/tcp.conf.d:/etc/nginx/tcp.conf.d
+      - ./certbot/etc/:/etc/certs:ro
     deploy:
       resources:
         limits:
