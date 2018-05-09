@@ -41,7 +41,6 @@ services:
       - ./certbot/etc:/etc/letsencrypt
       - ./certbot/var:/var/lib/letsencrypt
     entrypoint: /bin/bash
-    command: find /wc
     deploy:
       resources:
         limits:
