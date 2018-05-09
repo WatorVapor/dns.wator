@@ -40,7 +40,7 @@ services:
       - ./certbot:/wc
       - ./certbot/etc:/etc/letsencrypt
       - ./certbot/var:/var/lib/letsencrypt
-    entrypoint: '/wc/create.sh'
+    entrypoint: '/wc/run.sh'
     deploy:
       resources:
         limits:
