@@ -1,4 +1,4 @@
 #!/bin/sh
 echo "Run renew!!!"
-certbot renew
+#certbot renew
 sleep 60
