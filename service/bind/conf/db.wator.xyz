@@ -62,6 +62,7 @@ storage6.ipfs IN  AAAA   2400:2412:13e0:9d00:baae:edff:fe77:4c71
 wai.ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 
 @	     IN	 NS	ipfs
+ipfs IN A  133.130.106.202
 ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 
 
