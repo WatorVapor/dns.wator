@@ -65,6 +65,9 @@ wai.ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 ipfs IN A  133.130.106.202
 ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 
+@	     IN	 NS	ipv6proxy.ipfs
+ipv6proxy.ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
+
 
 _acme-challenge.wator.xyz. IN TXT "a4T5aG6Kqc5wQ4WE3bnNJlt1-Stt5IMYiTqKB68TFqE";
 _acme-challenge.wator.xyz. IN TXT "a8Qs2kZbuDeFe2lsXz4uusLnzWhqHpxthZ96-Eyyr7U";
