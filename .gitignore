@@ -36,3 +36,7 @@ nginx/nginx/certs/accounts/
 nginx/nginx/certs/csr/
 nginx/nginx/certs/keys/
 nginx/nginx/certs/renewal/
+
+service/certbot/log
+service/certbot/etc/csr
+service/certbot/etc/renewal
