@@ -32,16 +32,6 @@ services:
         reservations:
           cpus: '0.2'
           memory: 16M
-  certbot-dameon:
-    image: certbot/certbot
-    networks:
-      - outside
-    volumes:
-      - ./certbot:/wc
-      - ./certbot/etc:/etc/letsencrypt
-      - ./certbot/var:/var/lib/letsencrypt
-      - ./certbot/log:/var/log/letsencrypt
-    entrypoint: '/wc/run.sh'
     deploy:
       resources:
         limits:
