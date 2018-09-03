@@ -11,10 +11,10 @@ services:
       resources:
         limits:
           cpus: '0.25'
-          memory: 32M
+          memory: 8M
         reservations:
           cpus: '0.1'
-          memory: 16M
+          memory: 4M
   nginx-dameon:
     image: nginx
     networks:
@@ -28,10 +28,10 @@ services:
       resources:
         limits:
           cpus: '0.25'
-          memory: 32M
+          memory: 8M
         reservations:
           cpus: '0.1'
-          memory: 16M
+          memory: 4M
 networks:
   outside:
     external:
