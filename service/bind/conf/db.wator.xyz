@@ -82,6 +82,8 @@ v6proxy2.ipfs IN  AAAA   2400:2412:13e0:9d00:5172:f216:5677:5055
 
 @	     IN	 NS	door.camera.iot
 door.camera.iot IN  AAAA  2400:2412:13e0:9d00:a01:ff:feef:abcd
+@	     IN	 NS	door2.camera.iot
+door2.camera.iot IN  AAAA  2400:2412:13e0:9d00:e3d3:63c3:f254:29cc
 
 
 
