@@ -86,6 +86,8 @@ door.camera.iot IN  AAAA  2400:2412:13e0:9d00:a01:ff:feef:abcd
 door2.camera.iot IN  AAAA  2400:2412:13e0:9d00:e3d3:63c3:f254:29cc
 @	     IN	 NS	door3.camera.iot
 door3.camera.iot IN  AAAA  2400:2412:13e0:9d00:8ecc:56f5:3a21:f800
+@	     IN	 NS	door4.camera.iot
+door4.camera.iot IN  AAAA  2400:2412:13e0:9d00:1e4d:47ba:6e23:f908
 
 
 _acme-challenge.wator.xyz. IN TXT "B4K4keceRPtiUUk6TjdayCe-Wz3BKgtdtsm14IIT0w0";
