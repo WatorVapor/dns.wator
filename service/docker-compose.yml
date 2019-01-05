@@ -3,7 +3,8 @@ services:
   bind-dameon:
     image: bind
     volumes:
-      - ./bind/conf/db.wator.xyz:/etc/bind/db.wator.xyz
+      - ./bind/conf:/etc/bind
+      - ./bind/db.wator.xyz:/etc/bind/db.wator.xyz
       - ./bind/cache:/var/cache/bind
     networks:
       - outside
