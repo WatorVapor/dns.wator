@@ -17,6 +17,7 @@ wator.xyz. IN  A     133.130.106.202
 @	IN	NS	www
 www IN A  133.130.106.202
     IN AAAA 2400:2412:13e0:9d00:5172:f216:5677:5055
+    IN AAAA 2400:2412:13e0:9d00:baae:edff:fe77:4c71
 
 @	   IN	 NS	ipv6proxy
 ipv6proxy  IN    AAAA   2400:2412:13e0:9d00:5172:f216:5677:5055
@@ -78,7 +79,10 @@ v6proxy0.ipfs IN  AAAA   2400:8500:1301:743:a133:130:106:2022
 @	     IN	 NS	v6proxy1.ipfs
 v6proxy1.ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 @	     IN	 NS	v6proxy2.ipfs
+
 v6proxy2.ipfs IN  AAAA   2400:2412:13e0:9d00:5172:f216:5677:5055
+@	     IN	 NS	v6proxy3.ipfs
+v6proxy3.ipfs IN  AAAA   2400:2412:13e0:9d00:baae:edff:fe77:4c71
 
 
 @	     IN	 NS	door.camera.iot
