@@ -19,6 +19,11 @@ www IN A  133.130.106.202
     IN AAAA 2400:2412:13e0:9d00:5172:f216:5677:5055
     IN AAAA 2400:2412:13e0:9d00:baae:edff:fe77:4c71
 
+@	     IN	 NS	ipfs
+ipfs IN A  133.130.106.202
+ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
+ipfs IN  AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
+
 @	   IN	 NS	ipv6proxy
 ipv6proxy  IN    AAAA   2400:2412:13e0:9d00:5172:f216:5677:5055
 ipv6proxy  IN    AAAA   2400:2412:13e0:9d00:baae:edff:fe77:4c71
@@ -66,9 +71,6 @@ storage6.ipfs IN  AAAA   2400:2412:13e0:9d00:baae:edff:fe77:4c71
 @	     IN	 NS	wai.ipfs
 wai.ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 
-@	     IN	 NS	ipfs
-ipfs IN A  133.130.106.202
-ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 
 @	     IN	 NS	v6proxy.ipfs
 v6proxy.ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
