@@ -68,7 +68,6 @@ wai.ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 
 @	     IN	 NS	ipfs
 ipfs IN A  133.130.106.202
-ipfs IN  AAAA   2400:8500:1301:743:a133:130:106:2022
 ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 
 @	     IN	 NS	v6proxy.ipfs
