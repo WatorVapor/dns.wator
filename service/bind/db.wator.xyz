@@ -97,6 +97,9 @@ door2.camera.iot IN  AAAA  2400:2412:13e0:9d00:e3d3:63c3:f254:29cc
 door3.camera.iot IN  AAAA  2400:2412:13e0:9d00:8ecc:56f5:3a21:f800
 @	     IN	 NS	door4.camera.iot
 door4.camera.iot IN  AAAA  2400:2412:13e0:9d00:1e4d:47ba:6e23:f908
+@	     IN	 NS	door5.camera.iot
+door5.camera.iot IN  AAAA  2400:2412:13e0:9d00:e4d1:79b6:f7fd:38b2
+
 
 @	    IN	 NS	crystal
 crystal     IN   AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
