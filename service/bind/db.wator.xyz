@@ -108,6 +108,8 @@ crystal     IN   AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
 @           IN   NS     node4.samba
 node4.samba  IN    AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
 
+@	    IN	 NS	node2.redis
+node2.redis  IN    AAAA   2400:2412:13e0:9d00:baae:edff:fe77:4c71
 
 
 _acme-challenge.wator.xyz. IN TXT "B4K4keceRPtiUUk6TjdayCe-Wz3BKgtdtsm14IIT0w0";
