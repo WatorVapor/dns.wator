@@ -43,6 +43,9 @@ services:
       - ./certbot/log:/var/log/letsencrypt
     command: renew
     deploy:
+      restart_policy:
+        condition: any
+        delay: 24h
       resources:
         limits:
           cpus: '0.25'
