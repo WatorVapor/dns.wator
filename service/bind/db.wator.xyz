@@ -122,6 +122,10 @@ ermu3  IN   AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 ermu4  IN   AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
 
 
+@	    IN	 NS	ermu1
+ermu1  IN   AAAA   2400:2412:13e0:9d00:fa87:27d3:9f74:90fe
+
+
 _acme-challenge.wator.xyz. IN TXT "B4K4keceRPtiUUk6TjdayCe-Wz3BKgtdtsm14IIT0w0";
 _acme-challenge.wator.xyz. IN TXT "a8Qs2kZbuDeFe2lsXz4uusLnzWhqHpxthZ96-Eyyr7U";
 _acme-challenge.wator.xyz. IN TXT "QAsdSTrkH6g2Ka4JJD5mEB9oUzZJjUVBq6iZ4KSKgyA";
