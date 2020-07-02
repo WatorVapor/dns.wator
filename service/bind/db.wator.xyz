@@ -26,7 +26,7 @@ ipfs IN  AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 ipfs IN  AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
 
 @	   IN	 NS	ipv6proxy
-ipv6proxy  IN    AAAA   2400:2412:13e0:9d00:baae:edff:fe77:4c71
+ipv6proxy  IN    AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
 
 @          IN	 NS	w2
 w2         IN    AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
