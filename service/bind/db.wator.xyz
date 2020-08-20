@@ -126,33 +126,6 @@ ermu4  IN   AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
 ermu1  IN   AAAA   2400:2412:13e0:9d00:fa87:27d3:9f74:90fe
 
 
-_acme-challenge.wator.xyz. IN TXT "B4K4keceRPtiUUk6TjdayCe-Wz3BKgtdtsm14IIT0w0";
-_acme-challenge.wator.xyz. IN TXT "a8Qs2kZbuDeFe2lsXz4uusLnzWhqHpxthZ96-Eyyr7U";
-_acme-challenge.wator.xyz. IN TXT "QAsdSTrkH6g2Ka4JJD5mEB9oUzZJjUVBq6iZ4KSKgyA";
-_acme-challenge.wator.xyz. IN TXT "hHcyMPMu4RHhLEE7t6FYTCqLwmSkxI-OIjhhstJNeik";
-_acme-challenge.wator.xyz. IN TXT "pOlBvqkJOVb78gVutBttLU6xzQ4IHUM6E8BgOBPQJ6s";
-_acme-challenge.wator.xyz. IN TXT "UHK3maWxr0BeT78BteJDQx8NtldM28RCArbybibsCbI";
-_acme-challenge.wator.xyz. IN TXT "Xf9UIDAZEmSOeYC1iY07VjahdIigi_rvCIKObJSpwC0";
-_acme-challenge.wator.xyz. IN TXT "i8JagDXHf9ae3UslFQy7MAKJriLX-gZJ4dxfMFiXT0s";
-_acme-challenge.wator.xyz. IN TXT "xKaQPhQzl48MgcQtgaXuYUb1RySHq44uKY67N6rJtzA";
-_acme-challenge.wator.xyz. IN TXT "I_0SXKhVv3eCNU7h1uv355dCGby_RCrvlLMrJYHhfF4";
-_acme-challenge.wator.xyz. IN TXT "ZqoX6A6yac_Tz5ap9NXRGq8DA2LHs9hKYqhazSaU_00";
-_acme-challenge.wator.xyz. IN TXT "NPzRAkEIeGhDko9TRP68ayVCXIM7ClSkNAat4VpqV9w";
-_acme-challenge.wator.xyz. IN TXT "knMZ8P0U-o7U90-gQDenIDswWYolEvDG0MexTjmFcLE";
-
-_acme-challenge.wator.xyz. IN TXT "DDSOe5GTDr6DnMqnGIhfS--mC2CiAKk5Ep8K7Rah3Vs";
-_acme-challenge.wator.xyz. IN TXT "We60JLQ4UHbWMSZUJjZxI8Z5pKntHqvlQD5RcOXMryk";
-_acme-challenge.wator.xyz. IN TXT "VIoVNNp81KOrHbT2gQyhp46ac_RvHsw1HkW9n7ipduw";
-
-_acme-challenge.wator.xyz. IN TXT "TY6-UmZPkpkxiE3suFuuHHddfSKGddp4LytlYjO_zWk";
-
-_acme-challenge.wator.xyz. IN TXT "ov_veVIkC_7dH7GNxb1W3RCmpKgtAK-SM0d72fAqbJA";
-
-_acme-challenge.wator.xyz. IN TXT "HOqFRG41NpVfGxzBPMgtbft7Xitxf7dfLBvipnc6Ya8";
-_acme-challenge.wator.xyz. IN TXT "_5dNDkP4DItpdPqycwMB3U4vqFnBVT3wF0zXuosWITQ";
-
-
-
 _acme-challenge.wator.xyz. IN TXT "swkd5CL9rASWpVNn3l2DniQKtcUXgIiiQ4kGf5IiHQU";
 _acme-challenge.wator.xyz. IN TXT "bxiGBMBVkFfaTcxQi9VraJ4EHGDm42B7FcCLlN1MpPM";
 
