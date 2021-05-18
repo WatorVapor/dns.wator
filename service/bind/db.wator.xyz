@@ -126,13 +126,13 @@ ermu4  IN   AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
 ermu1  IN   AAAA   2400:2412:13e0:9d00:fa87:27d3:9f74:90fe
 
 
-@	IN	NS	emx0
-emx0 IN A  133.130.106.202
+@	IN	NS	emqx0
+emqx0 IN A  133.130.106.202
     IN AAAA 2400:2412:13e0:9d00:8639:beff:fe67:dcc9
 @	    IN	 NS	emx1
-emx1  IN   AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
+emqx1  IN   AAAA   2400:2412:13e0:9d00:2ce:39ff:fece:132
 @	    IN	 NS	emx2
-emx2  IN   AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
+emqx2  IN   AAAA   2400:2412:13e0:9d00:8639:beff:fe67:dcc9
 
 
 
